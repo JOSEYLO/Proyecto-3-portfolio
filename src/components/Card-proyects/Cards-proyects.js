@@ -10,7 +10,7 @@ export const cardProject = (img, title, goal, description, tech, link, github) =
       <img class="img-project" src=${img} alt=${goal} />
 
       <a href=${link} target="_blank">
-        <img class="link-icon" src="public/assets/icons8-enlazar-50.png" alt="icon-link" />
+        <img class="link-icon" src="./assets/icons8-enlazar-50.png" alt="icon-link" />
         </a>
 
       <a href=${github} target="_blank">
