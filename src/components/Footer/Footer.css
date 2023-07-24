@@ -1,0 +1,130 @@
+footer {
+  min-width: 10vh;
+  margin-top: 4rem;
+}
+
+.contacts {
+  width: 5rem;
+  height: 30.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1.5rem;
+  padding-bottom: 0.5rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-radius: 0 5px 0 0;
+}
+
+.contacts img, .icon-footer {
+  width: 50px;
+  
+  transition: transform 0.3s;
+}
+
+button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.reserved {
+  position: absolute; 
+  bottom: 0;
+  right: 50px;
+}
+
+.reserved > p {
+  font-size: 0.9rem;
+}
+
+ .rrss {
+  width: 5rem;
+  height: inherit;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1.5rem;
+  position: absolute;
+  top: calc(100% - 400px);
+  right: 0;
+  border-radius: 5px 0 0 5px;
+  padding-bottom: 1rem;
+} 
+
+.rrss a {
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.show-rrss a {
+  opacity: 1;
+  animation: side 1.5s ease-in;
+  width: fit-content;
+}
+
+#rrssBtn > img {
+  transition: transform 0.3s;
+  margin: 1rem 0;
+}
+
+
+span {
+  background: rgb(252,69,69);
+  background: linear-gradient(45deg, 
+  rgba(252,69,69,1) 0%, 
+  rgba(29,253,89,1) 50%, 
+  rgba(58,114,180,1) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.rrss-movil {
+  display: none;
+}
+
+.contacts img:hover, 
+.icon-footer:hover,
+#rrssBtn > img:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 740px) { 
+
+  footer {
+      margin-top: 2rem;
+  }
+
+  .rrss {
+      display: none;
+  }
+
+  .rrss-movil img {
+      width: 40px;
+      transition: transform 0.3s;
+  }
+
+  .rrss-movil img:hover {
+      transform: scale(1.1);
+  }
+
+  .rrss-movil {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-bottom: 2rem;
+  }
+
+  .reserved {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    padding-top: 1rem;
+  }
+
+}
