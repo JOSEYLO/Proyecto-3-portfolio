@@ -13,7 +13,7 @@ export const infoPersonal = [
     alt: "imagen-obra",
     desc: `En cuanto a mi formación académica,
      soy tecnico superior en Planificacón urbanistica y desarrollo de proyectos topograficos.
-    curse mis estudios en la universidad de Castilla La Mancha en el año 2000. Me dedique a ello durante 8 años ininterrumpidos en la ya extinta Grupo Mecanotubo,
+    Curse mis estudios en la universidad de Castilla La Mancha en el año 2000. Me dedique a ello durante 8 años ininterrumpidos en la ya extinta Grupo Mecanotubo,
     hasta que irrumpio la crisis del 2008 y desaparecio la obra civil en España por completo.`,
   },
   {
